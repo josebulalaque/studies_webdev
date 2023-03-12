@@ -1,10 +1,19 @@
 p {
   font-family: sans-serif;
+  text-align: center;
   color: darkgray;
 }
+
 a {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
+}
+
+#test {
+    font-family: sans-serif;
+    text-align: left;
+    color: black;
 }
