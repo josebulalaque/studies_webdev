@@ -1,0 +1,10 @@
+p {
+  font-family: sans-serif;
+  color: darkgray;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
