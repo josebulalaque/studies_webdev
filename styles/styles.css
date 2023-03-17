@@ -1,0 +1,36 @@
+h1 {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  color: darkgray;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#test {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    color: black;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+body {
+    text-align: center;
+}
