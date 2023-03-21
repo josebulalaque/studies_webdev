@@ -1,6 +1,18 @@
+header {
+    margin-bottom: 64px;
+}
+
 h1 {
     font-size: 48px;
     color: rgb(71, 62, 62);
+    margin: 0;
+}
+
+/* header p {
+    margin-bottom: 36px;
+} */
+
+#description {
     margin: 12px 0;
 }
 
@@ -11,6 +23,8 @@ a {
     border: 1px solid rgb(167, 1, 78);  
     border-radius: 4px;
     font-size: 24px;
+    display: inline-block;
+    margin: 0;
 }
 
 a:hover {
@@ -27,6 +41,7 @@ ol {
 
 li {
     padding: 16px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
     margin: 32px;
     background-color: rgb(223, 136, 124);
     border-radius: 6px;
@@ -38,8 +53,14 @@ h2 {
 
 }
 
+/* descendant combinator */
+
 main p {
     margin: 12px;
     color: rgb(71, 29, 22);
-
 }
+
+.highlight-goal {
+    background-color: rgb(223, 136, 101);
+}
+
